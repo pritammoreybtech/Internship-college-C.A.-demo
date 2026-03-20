@@ -9,72 +9,74 @@
 
 <body>
 
-<div class="dashboard">
+<div class="app">
 
 <!-- Sidebar -->
-<div class="sidebar">
+<aside class="sidebar glass">
+
 <h2>LearnHub</h2>
 
 <ul>
-<li class="active">Dashboard</li>
-<li>My Courses</li>
-<li>Assignments</li>
-<li>Analytics</li>
-<li>Settings</li>
+<li class="active">🏠 Dashboard</li>
+<li>📚 Courses</li>
+<li>📝 Assignments</li>
+<li>📊 Analytics</li>
+<li>⚙ Settings</li>
 </ul>
+
+</aside>
+
+<!-- Main -->
+<main class="main">
+
+<header class="topbar">
+<h1>Dashboard</h1>
+<button id="themeToggle">🌙</button>
+</header>
+
+<div class="stats">
+
+<div class="card glass">
+<h3>Courses</h3>
+<p>6</p>
 </div>
 
-<!-- Main Content -->
-<div class="main">
-
-<h1>Welcome Back 👋</h1>
-
-<div class="dashboard-cards">
-
-<div class="dash-card">
-<h3>Enrolled Courses</h3>
-<p>5</p>
-</div>
-
-<div class="dash-card">
+<div class="card glass">
 <h3>Completed</h3>
-<p>2</p>
+<p>3</p>
 </div>
 
-<div class="dash-card">
+<div class="card glass">
 <h3>Pending</h3>
 <p>3</p>
 </div>
 
 </div>
 
-<h2>Your Courses</h2>
+<h2>Your Learning</h2>
 
 <div class="course-grid">
 
-<div class="course-card">
-<h3>Frontend Development</h3>
-<p>Progress: 60%</p>
+<div class="course-card glass">
+<h3>Frontend</h3>
 <div class="progress">
-<div style="width:60%"></div>
+<div style="width:70%"></div>
 </div>
 </div>
 
-<div class="course-card">
+<div class="course-card glass">
 <h3>DSA</h3>
-<p>Progress: 30%</p>
 <div class="progress">
-<div style="width:30%"></div>
+<div style="width:40%"></div>
 </div>
 </div>
 
 </div>
 
-</div>
+</main>
 
 </div>
 
 <script src="script.js"></script>
-
 </body>
 </html>
