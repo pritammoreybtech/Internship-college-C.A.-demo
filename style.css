@@ -1,0 +1,178 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f6f8;
+color:#333;
+}
+
+/* Navbar */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:white;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar nav a{
+margin:0 15px;
+text-decoration:none;
+color:#333;
+}
+
+.logo{
+font-weight:bold;
+font-size:20px;
+}
+
+.nav-buttons{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.login{
+text-decoration:none;
+color:#333;
+}
+
+.btn-primary{
+background:#20b486;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.btn-secondary{
+background:white;
+border:1px solid #ccc;
+padding:10px 20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* Hero */
+
+.hero{
+background:#0f1e34;
+color:white;
+text-align:center;
+padding:100px 20px;
+}
+
+.hero span{
+color:#20b486;
+}
+
+.tag{
+display:inline-block;
+background:#1b2e4b;
+padding:6px 15px;
+border-radius:20px;
+margin-bottom:20px;
+}
+
+.hero-text{
+margin-top:20px;
+max-width:600px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.hero-buttons{
+margin-top:30px;
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.hero-features{
+margin-top:25px;
+display:flex;
+justify-content:center;
+gap:30px;
+font-size:14px;
+}
+
+/* Features */
+
+.features{
+padding:80px 60px;
+text-align:center;
+}
+
+.features-desc{
+margin-top:10px;
+margin-bottom:40px;
+color:#666;
+}
+
+.features-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+text-align:left;
+}
+
+/* CTA */
+
+.cta{
+margin:80px auto;
+width:80%;
+background:#20b486;
+color:white;
+text-align:center;
+padding:60px;
+border-radius:15px;
+}
+
+/* Login Page */
+
+.login-body{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#f4f6f8;
+}
+
+.login-container{
+background:white;
+padding:40px;
+border-radius:10px;
+width:350px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.login-container input{
+width:100%;
+padding:10px;
+margin:10px 0 20px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.full{
+width:100%;
+}
+
+.signup{
+text-align:center;
+margin-top:10px;
+}
